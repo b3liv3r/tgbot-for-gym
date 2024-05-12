@@ -1,0 +1,10 @@
+services:
+  bot:
+    build: ./
+    networks:
+      - skynet
+
+networks:
+  skynet:
+    external: true
+
